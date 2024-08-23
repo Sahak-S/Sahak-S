@@ -9,8 +9,10 @@ import org.hibernate.validator.constraints.CreditCardNumber;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Data
 public class TacoOrder {
+
 
 
     @NotBlank(message="Մուտքագրեք առաքման տեղը")
